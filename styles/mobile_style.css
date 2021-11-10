@@ -1,0 +1,50 @@
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 425px){
+    body{
+        display: block;
+    }
+    .about-candidate, .background{
+        width: 100%;
+    }
+    .name-position-block{
+        display: none;
+    }    
+    .mobile-name-position-block{
+        height: 200px;
+        background-color: #373741;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .mobile-name-position-block h1{
+        font-size: 36px;
+        font-family: 'Podkova', serif;
+        color: #e1d8cf;
+    }
+    .mobile-name-position-block h2{
+        font-size: 18px;
+        color: white;
+        letter-spacing: 5px;
+    }
+    .about-candidate-block, .background-block{
+        width: 95.3%;
+        margin: 0;
+    }
+    .background-block h4{
+        font-size: 18px;
+        margin: 20px 0 10px 20px;
+    }
+    p {
+        font-size: 14px;
+        margin: auto;
+        padding-left: 30px;
+        margin-bottom: 5px;
+        line-height: 1.5;
+    }
+    .accordion-item__content{
+        display: none;
+    }
+}

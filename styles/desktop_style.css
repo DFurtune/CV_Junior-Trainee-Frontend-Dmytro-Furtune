@@ -1,0 +1,126 @@
+/* font-family: 'Podkova', serif;
+#1ed8cf
+#373741 */
+
+body{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+}
+
+
+.about-candidate{
+    width: 45%;
+    background-color: #e1d8cf;
+    display: flex;
+    flex-direction: column;
+}
+.photo-block{
+    width: 100%;
+    margin-top: 2em;
+}
+.photo-block img{
+    width: 60%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.about-candidate-block{
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 2em;
+}
+.about-candidate-block-title, .background-block-title{
+    font-family: 'Podkova', serif;
+    width: 100%;
+    height: 70px;
+    background-color: #373741;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.accordion-item__trigger:hover, .background-block-title:hover {
+    cursor: pointer;
+    color: #e1d8cf;
+}
+p {
+    font-size: 18px;
+    margin: auto;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: black;
+}
+  
+a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+  
+a:hover::before {
+    transform: scaleX(1);
+}
+
+.about-candidate-block p img{
+    margin-bottom: -3px;
+}
+
+
+
+
+.background{
+    width: 55%;
+}
+.name-position-block{
+    height: 445px;
+    background-color: #373741;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.name-position-block h1{
+    font-size: 48px;
+    font-family: 'Podkova', serif;
+    color: #e1d8cf;
+}
+.name-position-block h2{
+    font-size: 24px;
+    color: white;
+    letter-spacing: 5px;
+}
+.background-block{
+    width: 85%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.background-block h4{
+    font-size: 24px;
+    margin: 20px 0 10px 20px;
+}
+.period{
+    font-style: italic;
+}
+
+.mobile-name-position-block{
+    display: none;
+}
